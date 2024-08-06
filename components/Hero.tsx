@@ -26,7 +26,7 @@ const Hero = () => {
         <div className='md:flex-1 py-[2rem] flex items-center'>
           <div className='relative w-full'>
             <Image
-              src="/johnsmit2.png"
+              src={`${prefix}/johnsmit2.png`}
               width="400"
               height="400"
               alt='professional headshot of john smith'
