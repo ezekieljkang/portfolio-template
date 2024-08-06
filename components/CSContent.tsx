@@ -53,7 +53,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           <p>HOME</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
-          <p>SITE REDESIGN</p>
+          <p>DESIGN PROCESS</p>
           <Link href="/pages/Sites/DesignProcess">
             <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
           </Link>
